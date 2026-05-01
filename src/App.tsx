@@ -1,10 +1,12 @@
-import { useState } from 'react'
+import { Container, Typography } from '@mui/material';
 
 function App() {
 
   return (
     <>
-      <h1>Vite + React</h1>
+      <Container>
+        <Typography variant="h1">Vite + React</Typography>
+      </Container>
     </>
   )
 }
