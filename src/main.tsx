@@ -1,7 +1,7 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import App from './App.tsx'
-import { ThemeContextProvider } from './styling/ThemeContext.tsx';
+import { ThemeContextProvider } from './theme/ThemeProvider.tsx';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
